@@ -1,0 +1,60 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+.lightpost {
+    background-color: black;
+    height: 3rem;
+    width: 2rem;
+}
+
+.lightbox {
+    background-color: black;
+    height: 14.75rem;
+    width: 6rem;
+    padding-top: .5rem;
+}
+
+.light {
+    background-color: blanchedalmond;
+    height: 4rem;
+    width: 4rem;
+    margin-top: .5rem;
+    border-radius: 50%;
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.grid-overlay {
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+}
+
+.red:hover {
+    box-shadow: 1px -1px 30px 10px rgb(255, 0, 0);
+}
+
+.green:hover {
+    box-shadow: 1px -1px 20px 16px rgb(0, 255, 0);
+}
+
+.yellow:hover {
+    box-shadow: 1px -1px 30px 10px yellow;
+}
